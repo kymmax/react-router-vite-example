@@ -16,6 +16,7 @@
     "@react-three/postprocessing": "^2.15.11",
     "axios": "^1.5.0",
     "bootstrap": "^5.3.1",
+    "dotenv": "^16.3.1",
     "framer-motion": "^10.16.4",
     "gsap": "^3.12.2",
     "html-flash-css": "^1.5.7-beta2",
