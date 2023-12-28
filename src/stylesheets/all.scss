@@ -1,0 +1,41 @@
+@import "bootstrap/scss/functions";
+
+@import "./variables";
+@import "./utilities";
+
+@import "bootstrap/scss/bootstrap";
+
+@import "./component/navbar";
+
+
+:root{
+    --color-gray: rgb(32, 32, 32);
+    --color-black: rgb(16, 16, 16);
+    --color-white: rgb(200, 200, 200);
+}
+
+html{
+    background: var(--color-black);
+    overflow-x: hidden;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    color: var(--color-white);
+    background: var(--color-black);
+    padding: 1rem 1rem 1rem calc(250px + 1rem);
+    // overflow-x: hidden;
+}
+
+.test-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #4083ff;
+    border: 1px solid white;
+}
