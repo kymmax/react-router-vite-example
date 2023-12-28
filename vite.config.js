@@ -10,7 +10,7 @@ export default defineConfig(({ command, mode }) => {
     server: {
       open: true, 
     },
-    base: mode === "development" ? "" : "/your-custom-path/",
+    base: mode === "development" ? "" : "/react-router-vite-example/",
     build: {
       outDir: 'docs'
     },
