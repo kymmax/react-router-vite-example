@@ -15,6 +15,8 @@ import ReactUseContext from "./Pages/example/ReactUseContext";
 import ReactUseReducer from "./Pages/example/ReactUseReducer";
 import ReactUseSearchParams from "./Pages/example/ReactUseSearchParams";
 
+import EnvParameter from "./Pages/example/EnvParameter";
+
 import Error from "./Pages/Error";
 
 import ReactFramerMotion from "./Pages/example/ReactFramerMotion";
@@ -63,6 +65,8 @@ function App() {
           <Route path='example/ReactUseContext' element={<ReactUseContext/>}></Route>
           <Route path='example/ReactUseReducer' element={<ReactUseReducer/>}></Route>
           <Route path='example/ReactUseSearchParams' element={<ReactUseSearchParams/>}></Route>
+
+          <Route path='example/EnvParameter' element={<EnvParameter/>}></Route>
 
           <Route path='example/ReactFramerMotion' element={<ReactFramerMotion/>}></Route>
 

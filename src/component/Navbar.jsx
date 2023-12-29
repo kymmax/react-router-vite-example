@@ -21,6 +21,9 @@ function Navbar(){
           <NavLink to="/example/ReactUseReducer">ReactUseReducer</NavLink>
           <NavLink to="/example/ReactUseSearchParams">ReactUseSearchParams</NavLink>
 
+          <h3>VITE</h3>
+          <NavLink to="/example/EnvParameter">EnvParameter</NavLink>
+
           <h3>LAZY</h3>
           <NavLink to="/example/ReactLazyImage">ReactLazyImage</NavLink>
 
