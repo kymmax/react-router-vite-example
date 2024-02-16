@@ -14,8 +14,11 @@ import ReactUseCallback from "./Pages/example/ReactUseCallback";
 import ReactUseContext from "./Pages/example/ReactUseContext";
 import ReactUseReducer from "./Pages/example/ReactUseReducer";
 import ReactUseSearchParams from "./Pages/example/ReactUseSearchParams";
+import ReactSearchSystem from "./Pages/example/ReactSearchSystem";
 
 import EnvParameter from "./Pages/example/EnvParameter";
+
+import StyledComponent from "./Pages/example/StyledComponent";
 
 import Error from "./Pages/Error";
 
@@ -65,8 +68,11 @@ function App() {
           <Route path='example/ReactUseContext' element={<ReactUseContext/>}></Route>
           <Route path='example/ReactUseReducer' element={<ReactUseReducer/>}></Route>
           <Route path='example/ReactUseSearchParams' element={<ReactUseSearchParams/>}></Route>
+          <Route path='example/ReactSearchSystem' element={<ReactSearchSystem/>}></Route>
 
           <Route path='example/EnvParameter' element={<EnvParameter/>}></Route>
+
+          <Route path='example/StyledComponent' element={<StyledComponent/>}></Route>
 
           <Route path='example/ReactFramerMotion' element={<ReactFramerMotion/>}></Route>
 

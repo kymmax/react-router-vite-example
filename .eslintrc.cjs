@@ -16,5 +16,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'react/prop-types': 'off', // 禁用 react/prop-types 規則 (xxx is missing in props validation)
+    "react/display-name": "off", // (Component definition is missing display name)
   },
 }

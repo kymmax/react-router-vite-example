@@ -20,9 +20,13 @@ function Navbar(){
           <NavLink to="/example/ReactUseContext">ReactUseContext</NavLink>
           <NavLink to="/example/ReactUseReducer">ReactUseReducer</NavLink>
           <NavLink to="/example/ReactUseSearchParams">ReactUseSearchParams</NavLink>
+          <NavLink to="/example/ReactSearchSystem">ReactSearchSystem</NavLink>
 
           <h3>VITE</h3>
           <NavLink to="/example/EnvParameter">EnvParameter</NavLink>
+
+          <h3>STYLED</h3>
+          <NavLink to="/example/StyledComponent">StyledComponent</NavLink>
 
           <h3>LAZY</h3>
           <NavLink to="/example/ReactLazyImage">ReactLazyImage</NavLink>
